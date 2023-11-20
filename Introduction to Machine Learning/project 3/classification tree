@@ -1,0 +1,18 @@
+digraph {
+	dpi=300
+	"None -> Overcast" [label=Overcast]
+	"None -> Overcast" [label=Yes]
+	"None -> Rain" [label=Rain]
+	"None -> Rain -> Cool" [label=Cool]
+	"None -> Rain -> Cool -> False" [label=False]
+	"None -> Rain -> Cool -> False" [label=Yes]
+	"None -> Rain -> Cool -> True" [label=True]
+	"None -> Rain -> Cool -> True" [label=No]
+	"None -> Rain -> Mild" [label=Mild]
+	"None -> Rain -> Mild" [label=No]
+	"None -> Sunny" [label=Sunny]
+	"None -> Sunny -> High" [label=High]
+	"None -> Sunny -> High" [label=No]
+	"None -> Sunny -> Normal" [label=Normal]
+	"None -> Sunny -> Normal" [label=Yes]
+}
